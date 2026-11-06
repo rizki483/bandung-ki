@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(190, 103, 5);
+}
+
+h1 {
+  color: rgb(240, 242, 243);
+  margin-left: 20px;
+}
+ 
+header{
+  background-color: rgb(233, 98, 2);
+  
+}
+header h1, p{
+  text-align: center;
+  color: white;
+  padding-top: 30px ;
+}
+
+nav a{
+  text-decoration: none;
+  color: rgb(37, 7, 231);
+  font-weight: bold;
+}
+
+a :hover{
+  color: rgb(0, 132, 248);
+  font-weight: bold;
+}
+
+a:hover::after{
+  color: rgb(3, 124, 230);
+  content: "😎";
+}
+
+nav ul {
+  background-color: rgb(241, 239, 237);
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+header p{
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+ main{
+  display: flex;
+  margin: 40px;
+  gap: 20px;;
+ }
+
+ #content{
+  /* flex 3 artinya pembagian luasnya 75% */
+  flex: 3;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ aside{
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ aside p{
+  color: black;
+ }
+
+ aside h2{
+  text-align: center;
+  color: rgb(97, 2, 67  );
+ }
+
+aside figure{
+  text-align: center;
+}
+
+aside section{
+  text-align: center;
+}
+
+aside th, td{
+  text-align: left;
+}
+
+#sejarah{
+  padding: 15px;
+}
+
+#geografis{
+  padding: 15px;
+}
+
+#wisata{
+  padding: 15px;
+}
